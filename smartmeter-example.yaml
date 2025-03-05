@@ -1,0 +1,7 @@
+---
+substitutions:
+  name: smartmeter
+  mqtt_broker: 192.168.1.1
+  mqtt_username: smartmeter
+
+<<: !include smartmeter.yaml
